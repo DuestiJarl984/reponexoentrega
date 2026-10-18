@@ -1,0 +1,20 @@
+test_concurrent_reservation_only_once (test_api.TestNexo.test_concurrent_reservation_only_once) ... ok
+test_delivery_lifecycle (test_api.TestNexo.test_delivery_lifecycle) ... ok
+test_delivery_requires_reservation (test_api.TestNexo.test_delivery_requires_reservation) ... ok
+test_double_delivery_completion_returns_409 (test_api.TestNexo.test_double_delivery_completion_returns_409) ... ok
+test_duplicate_delivery_returns_409 (test_api.TestNexo.test_duplicate_delivery_returns_409) ... ok
+test_duplicate_product (test_api.TestNexo.test_duplicate_product) ... ok
+test_health (test_api.TestNexo.test_health) ... ok
+test_insufficient_stock_keeps_state (test_api.TestNexo.test_insufficient_stock_keeps_state) ... ok
+test_invalid_quantity (test_api.TestNexo.test_invalid_quantity) ... ok
+test_missing_decision_returns_404 (test_api.TestNexo.test_missing_decision_returns_404) ... ok
+test_missing_product_returns_404 (test_api.TestNexo.test_missing_product_returns_404) ... ok
+test_no_double_reservation (test_api.TestNexo.test_no_double_reservation) ... ok
+test_product_and_request (test_api.TestNexo.test_product_and_request) ... ok
+test_reservation_decrements_stock (test_api.TestNexo.test_reservation_decrements_stock) ... ok
+test_suggestion_and_review (test_api.TestNexo.test_suggestion_and_review) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.098s
+
+OK
